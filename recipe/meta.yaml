@@ -1,0 +1,41 @@
+{% set name = "libsvm_py" %}
+{% set version = "323" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  git_url: https://github.com/phenix-lbl/libsvm.git
+
+build:
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} setup.py build; {{ PYTHON }} setup.py install"
+
+requirements:
+  host:
+    - python
+    - libsvm >=323
+  run:
+    - python
+    - libsvm >=323
+
+test:
+  imports:
+    - svm
+    - svmutil
+
+about:
+  home: https://github.com/cjlin1/libsvm
+  license: BSD
+  license_family: BSD
+  license_file:
+  summary: SVM library
+  description: SVM library
+  doc_url: https://github.com/cjlin1/libsvm
+  dev_url: https://github.com/cjlin1/libsvm
+
+extra:
+  recipe-maintainers:
+    - bkpoon
