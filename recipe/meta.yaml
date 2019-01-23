@@ -9,7 +9,6 @@ source:
   git_url: https://github.com/phenix-lbl/libsvm.git
 
 build:
-  noarch: python
   number: 0
   script: "{{ PYTHON }} setup.py build; {{ PYTHON }} setup.py install"
 
