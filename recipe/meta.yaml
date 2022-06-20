@@ -1,5 +1,5 @@
 {% set name = "libsvm_py" %}
-{% set version = "323" %}
+{% set version = "325" %}
 
 package:
   name: "{{ name|lower }}"
@@ -10,16 +10,16 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} setup.py build; {{ PYTHON }} setup.py install"
 
 requirements:
   host:
     - python
-    - libsvm >=323
+    - libsvm >=325
   run:
     - python
-    - libsvm >=323
+    - libsvm >=325
 
 test:
   imports:
