@@ -18,11 +18,11 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - libsvm
+    - libsvm =325
     - pip
     - python
   run:
-    - libsvm
+    - libsvm =325
     - python
     - scipy
 
