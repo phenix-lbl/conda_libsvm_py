@@ -29,6 +29,8 @@ requirements:
 test:
   imports:
     - libsvm
+    - libsvm.svm
+    - libsvm.svmutil
   commands:
     - pip check
   requires:
