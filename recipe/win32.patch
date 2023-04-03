@@ -1,7 +1,7 @@
-diff --git a/python/libsvm/svm.py b/python/libsvm/svm.py
+diff --git a/libsvm/svm.py b/libsvm/svm.py
 index 3fdd067..37133de 100644
---- a/python/libsvm/svm.py
-+++ b/python/libsvm/svm.py
+--- a/libsvm/svm.py
++++ b/libsvm/svm.py
 @@ -31,7 +31,7 @@ try:
  except:
      try:
