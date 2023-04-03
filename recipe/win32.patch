@@ -1,5 +1,5 @@
 diff --git a/libsvm/svm.py b/libsvm/svm.py
-index 3fdd067..37133de 100644
+index a5a1ebe..8648b42 100644
 --- a/libsvm/svm.py
 +++ b/libsvm/svm.py
 @@ -31,7 +31,7 @@ try:
