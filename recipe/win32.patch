@@ -1,0 +1,13 @@
+diff --git a/python/libsvm/svm.py b/python/libsvm/svm.py
+index 3fdd067..37133de 100644
+--- a/python/libsvm/svm.py
++++ b/python/libsvm/svm.py
+@@ -31,7 +31,7 @@ try:
+ except:
+     try:
+         if sys.platform == 'win32':
+-            libsvm = CDLL(path.join(dirname, r'..\..\windows\libsvm.dll'))
++            libsvm = CDLL(path.join(dirname, r'..\..\..\Library\lib\libsvm.dll'))
+         else:
+             libsvm = CDLL(path.join(dirname, '../../libsvm.so.2'))
+     except:
