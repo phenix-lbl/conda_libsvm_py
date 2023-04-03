@@ -1,11 +1,11 @@
-About libsvm-official
-=====================
+About libsvm-official-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda_libsvm_py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.csie.ntu.edu.tw/~cjlin/libsvm
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda_libsvm_py-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python binding of LIBSVM
 
