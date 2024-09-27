@@ -1,8 +1,8 @@
 diff --git a/libsvm/svm.py b/libsvm/svm.py
-index a5a1ebe..8648b42 100644
+index 7304ec7..b82856f 100644
 --- a/libsvm/svm.py
 +++ b/libsvm/svm.py
-@@ -31,7 +31,7 @@ try:
+@@ -30,7 +30,7 @@ try:
  except:
      try:
          if sys.platform == 'win32':
