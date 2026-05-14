@@ -7,7 +7,7 @@ index 7304ec7..b82856f 100644
      try:
          if sys.platform == 'win32':
 -            libsvm = CDLL(path.join(dirname, r'..\..\windows\libsvm.dll'))
-+            libsvm = CDLL(path.join(dirname, r'..\..\..\Library\lib\libsvm.dll'))
++            libsvm = CDLL(path.join(dirname, r'..\..\..\Library\bin\libsvm.dll'))
          else:
              libsvm = CDLL(path.join(dirname, '../../libsvm.so.4'))
      except:

@@ -1,5 +1,5 @@
 {% set name = "libsvm-official" %}
-{% set version = "3.35.0" %}
+{% set version = "3.37.0" %}
 
 package:
   name: {{ name|lower }}
@@ -20,11 +20,11 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - libsvm =335
+    - libsvm =337
     - pip
     - python
   run:
-    - libsvm =335
+    - libsvm =337
     - python
     - scipy
 
