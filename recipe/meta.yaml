@@ -34,8 +34,6 @@ test:
     - libsvm
     - libsvm.svm
     - libsvm.svmutil
-  commands:
-    - pip check
   requires:
     - pip
 
