@@ -23,6 +23,7 @@ requirements:
     - libsvm =337
     - pip
     - python
+    - setuptools
   run:
     - libsvm =337
     - python
