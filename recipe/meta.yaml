@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/libsvm_official-{{ version }}.tar.gz
-  sha256: 3432bb74ea9c1e0c0553fc5079f1e8a703307489d3e9ffd4adcf0152d38d6966
+  sha256: 50dc3e118a92b43554160c2095d7f06325751a7b5dad097e401e11b64820d2cf
   patches:
     - win32.patch
 
