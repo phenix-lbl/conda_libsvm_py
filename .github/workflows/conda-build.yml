@@ -61,8 +61,6 @@ jobs:
         RATTLER_BUILD_COLOR: always
         RATTLER_BUILD_ENABLE_GITHUB_INTEGRATION: 'true'
         BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
-        FEEDSTOCK_TOKEN: ${{ secrets.FEEDSTOCK_TOKEN }}
-        STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
       shell: bash
       run: |
         export CONDA_BLD_PATH="${CONDA_BLD_PATH/#~/${HOME}}"
@@ -91,8 +89,6 @@ jobs:
         RATTLER_BUILD_COLOR: always
         RATTLER_BUILD_ENABLE_GITHUB_INTEGRATION: 'true'
         BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
-        FEEDSTOCK_TOKEN: ${{ secrets.FEEDSTOCK_TOKEN }}
-        STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
       shell: bash
       run: |
         export CONDA_BLD_PATH="${CONDA_BLD_PATH/#~/${HOME}}"
@@ -129,8 +125,6 @@ jobs:
         RATTLER_BUILD_COLOR: always
         RATTLER_BUILD_ENABLE_GITHUB_INTEGRATION: 'true'
         BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
-        FEEDSTOCK_TOKEN: ${{ secrets.FEEDSTOCK_TOKEN }}
-        STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
 
     - name: Determine build outcome
       # this is to merge the status of the linux/osx/win builds into
